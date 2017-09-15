@@ -3,23 +3,23 @@
 #include <sstream>
 using namespace std;
 
-bool gotoFuncTask11();
-bool switchFuncTask12();
-bool gotoFuncTask21();
-bool switchFuncTask22();
+bool gotoFuncPart1();
+bool switchFuncPart1();
+bool gotoFuncPart2();
+bool switchFuncPart2();
 
 void main(void) {
-	//gotoFuncTask11();
-	gotoFuncTask21();
+	//gotoFuncPart1();
+	//gotoFuncPart2();
 	/*while (true) {
-		switchFuncTask12();
+		switchFuncPart1();
 	}*/
 	/*while (true) {
-		switchFuncTask22();
+		switchFuncPart2();
 	}*/
 }
 
-bool gotoFuncTask11() {
+bool gotoFuncPart1() {
 START:
 	string input = "";
 	cout << "Enter string: ";
@@ -72,7 +72,7 @@ S4:
 	goto START;
 }
 
-bool switchFuncTask12() {
+bool switchFuncPart1() {
 	string input = "";
 	cout << "Enter string: ";
 	getline(cin, input);
@@ -129,7 +129,7 @@ bool switchFuncTask12() {
 	}
 }
 
-bool gotoFuncTask21() {
+bool gotoFuncPart2() {
 START:
 	string input = "";
 	cout << "Enter string: ";
@@ -194,7 +194,7 @@ TRAP:
 	goto START;
 }
 
-bool switchFuncTask22() {
+bool switchFuncPart2() {
 	string input = "";
 	cout << "Enter string: ";
 	getline(cin, input);
